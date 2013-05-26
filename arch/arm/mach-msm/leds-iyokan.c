@@ -84,6 +84,7 @@ struct as3676_platform_data as3676_platform_data = {
 		.name = "led_11-not-connected",
 		.on_charge_pump = 0,
 		.max_current_uA = 0,
+		.use_dls = true,
 	},
 	.leds[11] = {
 		.name = "keyboard-backlight-rgb1",
